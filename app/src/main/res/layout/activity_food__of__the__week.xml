@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Food_Of_The_Week"
+    android:background="@drawable/gradient">
+
+    <TextView
+        android:id="@+id/textResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="137dp"
+        android:textColor="@color/yellow"
+        android:textSize="25sp"></TextView>
+
+    <Button
+        android:id="@+id/LoseWeightbutton"
+        android:layout_width="174dp"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="111dp"
+        android:layout_marginBottom="404dp"
+        android:text="Lose Weight"
+        android:textSize="20dp"></Button>
+
+    <Button
+        android:id="@+id/GainWeightbutton"
+        android:layout_width="174dp"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="111dp"
+        android:layout_marginBottom="273dp"
+        android:text="Gain Weight"
+        android:textSize="20dp"></Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:text="Lose Weight/Gain Weight"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30sp"></TextView>
+</RelativeLayout>

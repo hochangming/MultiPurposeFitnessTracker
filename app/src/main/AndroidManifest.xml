@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.Fitness_tracker">
+
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Biometric"
+            android:label="@string/title_activity_biometric"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".GainWeightActivity"
+            android:label="@string/title_activity_gain_weight"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoseWeightActivity"
+            android:label="@string/title_activity_lose_weight"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DatabaseTableCalorie"
+            android:label="title_activity_database_table_Calories"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Multi_tracker"
+            android:label="@string/title_activity_multi_tracker"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DatabaseTableMultiTracker"
+            android:label="@string/title_activity_database_table_multi_tracker"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ExercisesOfTheWeek"
+            android:label="@string/title_activity_exercises_of_the_week"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Food_Of_The_Week"
+            android:label="@string/title_activity_food__of__the__week"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Calorie_Activity"
+            android:label="@string/title_activity_calorie_"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BMI_Activity"
+            android:label="@string/title_activity_b_m_i_"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SelectionActivity"
+            android:label="@string/title_activity_selection"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
