@@ -62,6 +62,8 @@ public class Biometric extends AppCompatActivity {
             @Override
             public void onAuthenticationSucceeded(@NonNull BiometricPrompt.AuthenticationResult result) {
                 super.onAuthenticationSucceeded(result);
+                Intent intent = new Intent(Biometric.this,SelectionActivity.class);
+                startActivity(intent);
                 Toast.makeText(getApplicationContext(),"Login Success!",Toast.LENGTH_SHORT).show();
             }
 
@@ -81,8 +83,6 @@ public class Biometric extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 biometricPrompt.authenticate(promptInfo);
-                Intent intent = new Intent(Biometric.this,SelectionActivity.class);
-                startActivity(intent);
             }
         });
     }
